@@ -15,9 +15,9 @@ body {
 
 .graphicContainer {
     height: 500px;
-    border: 1px solid lavender;
-    margin: 5px 5px 5px 5px;
-    border-radius: 3px; 
+    border-top: 1px solid lavender;
+    border-bottom: 1px solid lavender;
+    margin: 10px 5px 5px 5px;
 }
 
 //D3 Graphic
@@ -37,7 +37,7 @@ body {
 .axis path,
 .axis line {
   fill: none;
-  stroke: #000;
+  stroke: lavender;
   shape-rendering: crispEdges;
 }
 
