@@ -1,3 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+$body-font: 'Roboto Slab', serif;
+$body-font2: 'Open Sans', sans-serif;
+
 body {
-  color: blue;
+  color: steelblue;
+  font-family: $body-font;
+  font-size: 100%;
+}
+
+#bigButton {
+    color: peru;
+    width: 200px;
+    height: 100px;
+    font-size: 200%;
+}
+
+.graphicContainer {
+    width:640px;
+    height: 500px;
+    border: 1px solid steelblue;
+}
+
+//D3 Graphic
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
 }

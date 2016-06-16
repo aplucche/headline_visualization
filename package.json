@@ -12,6 +12,7 @@
     "node-sass": "^3.7.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
+    "react-faux-dom": "^2.5.0",
     "webpack": "^1.13.1"
   },
   "devDependencies": {},
