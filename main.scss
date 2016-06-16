@@ -4,35 +4,34 @@ $body-font: 'Roboto Slab', serif;
 $body-font2: 'Open Sans', sans-serif;
 
 body {
-  color: steelblue;
+  background-color: steelblue;
+  color: lavender;
   font-family: $body-font;
   font-size: 100%;
 }
-
-#bigButton {
-    color: peru;
-    width: 200px;
-    height: 100px;
-    font-size: 200%;
+.appContainer {
+    max-width: 960px;
 }
 
 .graphicContainer {
-    width:640px;
     height: 500px;
-    border: 1px solid steelblue;
+    border: 1px solid lavender;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px; 
 }
 
 //D3 Graphic
 .bar {
-  fill: steelblue;
+  fill: midnightblue;
 }
 
 .bar:hover {
-  fill: brown;
+  fill: peru;
 }
 
 .axis {
   font: 10px sans-serif;
+  fill: lavender;
 }
 
 .axis path,
