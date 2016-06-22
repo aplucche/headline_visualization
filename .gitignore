@@ -2,7 +2,7 @@ node_modules/*
 scratch/*
 bundle.js
 *.map
+*log
 
 lambda_function/*
 !lambda_function/lambda_function.py
-
