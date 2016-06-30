@@ -4,14 +4,13 @@ import TestUtils from 'react-addons-test-utils';
 import { expect, assert } from 'chai';
 import 'isomorphic-fetch';
 
-import Dropdown from '../index.js';
 import App from '../index.js';
-import Graphic from '../index.js';
+import Dropdown from '../components/Dropdown'
+import Graphic from '../components/Graphic'
 
 describe('App Container', () => {
   it('can be rendered', () => {
     var component = TestUtils.renderIntoDocument(<App />);
-    //var childDropdown = TestUtils.findRenderedDOMComponentWithTag(component, 'h1');
     assert(component)
   });
 }); 
