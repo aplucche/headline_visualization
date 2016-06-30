@@ -21,7 +21,9 @@
     "webpack": "^1.13.1"
   },
   "devDependencies": {
-    "ignore-styles": "^4.0.0"
+    "es6-promise": "^3.2.1",
+    "ignore-styles": "^4.0.0",
+    "isomorphic-fetch": "^2.2.1"
   },
   "scripts": {
     "test": "mocha test/test.js --require test/setup.js --require ignore-styles --compilers js:babel-register --reporter spec",
